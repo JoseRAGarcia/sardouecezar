@@ -1,0 +1,144 @@
+.bg-primary-125 {
+  background: darken($primary, 12.5%) !important;
+}
+.bg-primary-darken {
+  background: $primary-darken !important;
+}
+.bg-primary-75 {
+  background: lighten($primary, 12.5%) !important;
+}
+.bg-primary-50 {
+  background: lighten($primary, 25%) !important;
+}
+.bg-primary-25 {
+  background: lighten($primary, 37.5%) !important;
+}
+.bg-primary-10 {
+  background: lighten($primary, 45%) !important;
+}
+
+.bg-gray-500 {
+  background: $gray500;
+}
+.bg-gray-800 {
+  background: $gray800;
+}
+
+.bg-light {
+  background: $light;
+}
+
+.bg-forest {
+  background: $forest-green;
+}
+
+.text-gray-500 {
+  color: $gray500;
+}
+.text-gray-800 {
+  color: $gray800;
+}
+.text-light {
+  color: $light;
+}
+.text-primary-125 {
+  color: darken($primary, 12.5%) !important;
+}
+.text-primary-darken {
+  color: $primary-darken !important;
+}
+.text-shadow {
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 1));
+}
+
+.border-ccc {
+  border: 1px solid #ccc;
+}
+.border-light {
+  border: $light 1px solid;
+}
+.border-primary {
+  border: $primary 1px solid;
+}
+.border-secondary {
+  border: $secondary 1px solid;
+}
+.border-positive {
+  border: $positive 1px solid;
+}
+.border-negative {
+  border: $negative 1px solid;
+}
+.border-grey-500 {
+  border: $gray500 1px solid;
+}
+
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.btn-link {
+  text-decoration: underline !important;
+}
+
+.no-click {
+  touch-action: none;
+  pointer-events: none;
+}
+
+.img-fluid {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.btn-action {
+  height: 32px;
+  font-size: 0.8rem !important;
+}
+
+// vue3-otp-input
+.otp-input {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  margin: 0 10px;
+  font-size: 20px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+.otp-input-negative input {
+  border: 1px solid $negative;
+  background: rgba($color: $negative, $alpha: 0.3);
+}
+.otp-input-positive input {
+  border: 1px solid $positive;
+  background: rgba($color: $positive, $alpha: 0.3);
+}
+/* Background colour of an input field with value */
+.otp-input::-webkit-inner-spin-button,
+.otp-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input::placeholder {
+  font-size: 15px;
+  text-align: center;
+  font-weight: 600;
+}
+
+@media (max-width: $breakpoint-sm) {
+  .otp-input {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    font-size: 16px;
+  }
+}
+
+// Quasar classes
+.q-dialog__inner--minimized > div {
+  max-width: 100%;
+}

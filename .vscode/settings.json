@@ -1,0 +1,42 @@
+{
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": [
+    "source.fixAll.eslint"
+  ],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "vue"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#47cbf4",
+    "activityBar.background": "#47cbf4",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#f10ebb",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#15202b99",
+    "sash.hoverBorder": "#47cbf4",
+    "statusBar.background": "#17bdf1",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#0c9cc9",
+    "statusBarItem.remoteBackground": "#17bdf1",
+    "statusBarItem.remoteForeground": "#15202b",
+    "titleBar.activeBackground": "#17bdf1",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveBackground": "#17bdf199",
+    "titleBar.inactiveForeground": "#15202b99"
+  },
+  "peacock.color": "#17BDF1",
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  }
+}
