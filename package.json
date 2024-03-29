@@ -12,7 +12,7 @@
     "dev": "quasar dev",
     "build": "quasar build",
     "ssr:dev": "quasar dev -m ssr",
-    "ssr:build": "quasar build -m ssr",
+    "ssr:build": "node build/index.js && quasar build -m ssr",
     "android:dev": "quasar dev -m capacitor -T android",
     "android:build": "quasar build -m capacitor -T android",
     "ios:dev": "quasar dev -m capacitor -T ios",
