@@ -8,7 +8,7 @@
   ],
   "functions": {
     "api/**": {
-        "excludeFiles": "{.quasar,.next,*.cache,node_modules,public,app}/**"
+        "excludeFiles": "{.quasar,*.cache,node_modules,public,app}/**"
     }
 }
 }
