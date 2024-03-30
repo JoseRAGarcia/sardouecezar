@@ -5,5 +5,10 @@
       "src": "package.json",
       "use": "vercel-quasar"
     }
-  ]
+  ],
+  "functions": {
+    "api/**": {
+        "excludeFiles": "{.quasar,.next,*.cache,node_modules,public,app}/**"
+    }
+}
 }
